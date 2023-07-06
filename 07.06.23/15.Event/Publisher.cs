@@ -38,4 +38,37 @@ namespace Event15
         
     }
 
+    class ExtentionEventArgs : EventArgs
+    {
+        public string? Info
+        {
+            set; get;
+        }
+    }
+
+    class StandardPublisher
+    {
+        private static int i = 0;
+        public string str = $"StandardPublisher i: {i}";
+
+        public event EventHandler OnChange = delegate { };
+        public event EventHandler<ExtentionEventArgs> OnChange2 = delegate { };
+
+        public void TryEvent()
+        {
+            do
+            {
+                str = $"StandardPublisher i: {i}";
+                i++;
+                ExtentionEventArgs extentionEventArgs = new ExtentionEventArgs();
+                extentionEventArgs.Info = str;
+                OnChange(this, EventArgs.Empty);
+                OnChange2(this, extentionEventArgs);
+                
+            } while (i < 5);
+        }
+        
+    }
+
+
 }

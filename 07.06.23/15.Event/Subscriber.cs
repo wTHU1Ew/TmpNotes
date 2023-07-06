@@ -31,4 +31,29 @@ namespace Event15
             Console.WriteLine("Subscriber.HandlerMethod: {0} * {1} = {2}", argv1, argv2, argv1 * argv2);
         }
     }
+
+    internal class StandardSubscriber
+    {
+        private string s = "";
+        public StandardSubscriber(StandardPublisher standardPublisher)
+        {
+            s = standardPublisher.str;
+            standardPublisher.OnChange += HandlerMethod1;
+        }
+
+        public void UseExtention(StandardPublisher standardPublisher)
+        {
+            s = standardPublisher.str;
+            standardPublisher.OnChange2 += HandlerMethod2;
+        }
+
+        void HandlerMethod1(object? sender, EventArgs e)
+        {
+            Console.WriteLine(s);
+        }
+        void HandlerMethod2(object? sender, ExtentionEventArgs e)
+        {
+            Console.WriteLine(e.Info);
+        }
+    }
 }
