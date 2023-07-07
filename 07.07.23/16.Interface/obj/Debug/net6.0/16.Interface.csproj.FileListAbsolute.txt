@@ -1,0 +1,15 @@
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\bin\Debug\net6.0\16.Interface.exe
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\bin\Debug\net6.0\16.Interface.deps.json
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\bin\Debug\net6.0\16.Interface.runtimeconfig.json
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\bin\Debug\net6.0\16.Interface.dll
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\bin\Debug\net6.0\16.Interface.pdb
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\16.Interface.csproj.AssemblyReference.cache
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\16.Interface.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\16.Interface.AssemblyInfoInputs.cache
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\16.Interface.AssemblyInfo.cs
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\16.Interface.csproj.CoreCompileInputs.cache
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\16.Interface.dll
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\refint\16.Interface.dll
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\16.Interface.pdb
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\16.Interface.genruntimeconfig.cache
+E:\Github\wTHU1Ew\TmpNotes\07.07.23\16.Interface\obj\Debug\net6.0\ref\16.Interface.dll
