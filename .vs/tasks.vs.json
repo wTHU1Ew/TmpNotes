@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-Introduce0",
+      "appliesTo": "07.11.23/Introduce0.cpp",
+      "type": "launch"
+    }
+  ]
+}
